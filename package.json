@@ -33,5 +33,6 @@
     "escape",
     "special chars"
   ],
-  "license": "Apache2"
+  "license": "Apache 2",
+  "description": "mongoObject ----------- escapes `$` and `.` in object keys so you can store objects in MongoDb."
 }
