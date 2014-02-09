@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+*.seed
+*.log
+*.dat
+*.out
+*.pid
+*.gz
+*~
+.idea
+*.sublime-project
+*.sublime-workspace
+*.orig

@@ -1,0 +1,37 @@
+{
+  "author": "Allan Ebdrup",
+  "name": "mongoobject",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muscula/mongoobject"
+  },
+  "private": false,
+  "main": "./index.js",
+  "engines": {
+    "node": ""
+  },
+  "dependencies": {
+    "traverse": "~0.6.6"
+  },
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "devDependencies": {
+    "mocha": "",
+    "chai": "",
+    "mocha-jshint": ""
+  },
+  "bugs": {
+    "url": "https://github.com/Muscula/mongoobject/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "mongodb",
+    "escape",
+    "special chars"
+  ],
+  "license": "Apache2"
+}
