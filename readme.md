@@ -12,15 +12,15 @@ npm install mongoobject
 Usage
 -----
 ```js
-var mongoObject = require('mongoobject');
+var mongoobject = require('mongoobject');
 
-var objectToSaveInMongo = mongoObject.escape(myObject);
+var objectToSaveInMongo = mongoobject.escape(myObject);
 ```
 
 ```js
-var mongoObject = require('mongoobject');
+var mongoobject = require('mongoobject');
 
-var myObject = mongoObject.unescape(myObjectFromMongo);
+var myObject = mongoobject.unescape(myObjectFromMongo);
 
 ```
 
