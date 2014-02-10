@@ -14,7 +14,7 @@ Usage
 ```js
 var mongoObject = require('mongoobject');
 
-var objectSafeToSaveInMongo = mongoObject.escape(myObject);
+var objectToSaveInMongo = mongoObject.escape(myObject);
 ```
 
 ```js
