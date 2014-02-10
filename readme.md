@@ -28,5 +28,5 @@ You can also escape and unescape just one property name
 ```js
 var escapedPropertyName = mongoobject.escapeKey('$mypropertyName');
 
-var unEscapedPropertyName = momgoobject.unescapeKey('\uff04myPropertyName');
+var unescapedPropertyName = momgoobject.unescapeKey('\uff04myPropertyName');
 ```
