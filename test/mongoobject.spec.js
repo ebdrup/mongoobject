@@ -3,6 +3,10 @@ describe('mongoObject', function () {
 
 		var tests = [
 			{
+				input: [],
+				output: []
+			},
+			{
 				input: {},
 				output: {}
 			},
@@ -33,6 +37,14 @@ describe('mongoObject', function () {
 				output: {'\uff04a': [
 					{'\uff04b': 1, '\uff04c': [{'\uff0e1': true, '\uff0e2':'test'}, {'\uff0e3': true, '\uff0e4':'test'}]}
 				]}
+			},
+			{
+				input: [{$a: [
+					{$b: 1, $c: [{'.1': true, '.2':'test'},{'.3': true, '.4':'test'}]}
+				]}],
+				output: [{'\uff04a': [
+					{'\uff04b': 1, '\uff04c': [{'\uff0e1': true, '\uff0e2':'test'}, {'\uff0e3': true, '\uff0e4':'test'}]}
+				]}]
 			}
 		];
 

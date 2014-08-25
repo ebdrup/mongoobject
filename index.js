@@ -9,10 +9,10 @@ module.exports.unescapeKey = unescapeKey;
 function getPatchFunction(escapeFunction) {
 	return function patch(o) {
 		var t = traverse(o);
-		var output = {};
+		var output = Array.isArray(o) ? [] : {};
 		var tOutput = traverse(output);
 		t.forEach(function (value) {
-			if (Array.isArray(value)) {
+			if (this.path.length>0 && Array.isArray(value)) {
 				tOutput.set(this.path.map(escapeFunction), []);
 			}
 			if (this.path.length>0 && this.isLeaf) {
