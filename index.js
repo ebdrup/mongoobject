@@ -15,7 +15,7 @@ function getPatchFunction(escapeFunction) {
 			if (Array.isArray(value)) {
 				tOutput.set(this.path.map(escapeFunction), []);
 			}
-			if (this.isLeaf) {
+			if (this.path.length>0 && this.isLeaf) {
 				tOutput.set(this.path.map(escapeFunction), value);
 			}
 		});

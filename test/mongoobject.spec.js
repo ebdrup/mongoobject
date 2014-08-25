@@ -3,6 +3,10 @@ describe('mongoObject', function () {
 
 		var tests = [
 			{
+				input: {},
+				output: {}
+			},
+			{
 				input: {a: 1},
 				output: {a: 1}
 			},
