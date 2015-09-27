@@ -12,15 +12,15 @@
     "node": ""
   },
   "dependencies": {
-    "traverse": "~0.6.6"
+    "traverse": "0.6.6"
   },
   "scripts": {
     "test": "node ./test.js"
   },
   "devDependencies": {
-    "mocha": "",
-    "chai": "",
-    "mocha-jshint": ""
+    "mocha": "2.3.3",
+    "chai": "3.3.0",
+    "mocha-jshint": "2.2.3"
   },
   "bugs": {
     "url": "https://github.com/Muscula/mongoobject/issues"
