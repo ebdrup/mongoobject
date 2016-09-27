@@ -30,3 +30,7 @@ var escapedPropertyName = mongoobject.escapeKey('$mypropertyName');
 
 var unescapedPropertyName = momgoobject.unescapeKey('\uff04myPropertyName');
 ```
+
+License
+-------
+MIT
